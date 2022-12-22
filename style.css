@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.cuerpo{
+    display: grid;
+    width: 300px;
+    height: 300px;
+    align-self: center;
+    justify-self: center;
+    align-content: center;
+    justify-content: center;
+    border: solid black;
+    background-color: red;
+    padding: 20px;
+}
+
+.boton{
+
+    flex-direction: row;
+    background-color: lightblue;
+    color: black;
+    border-radius: 0px;
+    font-size: small;
+    cursor: pointer;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.boton:hover{
+    background-color: blueviolet;
+}
+
+.boton1{
+
+    background-color: lightblue;
+    color: black;
+    border-radius: 0px;
+    font-size: small;
+    cursor: pointer;
+}
+
+.boton1:hover{
+    background-color: blueviolet;
+}
+
+h3{
+    font-size: medium;
+}
